@@ -158,7 +158,7 @@ apt-get -y install zip unzip
 
 cd /home/vps/public_html
 
-https://github.com/dinfucker/OCS_PANLE/blob/master/panelocs.zip
+wget https://raw.githubusercontent.com/dinfucker/OCS_PANLE/master/panelocs.zip
 
 mv panelocs.zip LTEOCS.zip
 
@@ -196,7 +196,7 @@ clear
 echo ""
 echo "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-"
 echo ""
-echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP/install และกรอกข้อมูล 2 ด้านล่าง!"
+echo "เปิดเบราว์เซอร์และเข้าถึงที่อยู่ http://$MYIP:81/ และกรอกข้อมูล 2 ด้านล่าง!"
 echo "Database:"
 echo "- Database Host: localhost"
 echo "- Database Name: $DatabaseName"
